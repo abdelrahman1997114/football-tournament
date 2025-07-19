@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إنشاء بطولة</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>إنشاء بطولة جديدة</h1>
+    <form id="playersForm">
+      <div id="playerGroups"></div>
+      <button type="button" onclick="generateTeams()">توليد الفرق</button>
+      <div id="teamsContainer"></div>
+      <button type="button" onclick="generateMatches()">قرعة المباريات</button>
+      <div id="matchesContainer"></div>
+      <button type="submit">حفظ البطولة</button>
+    </form>
+  </div>
+  <script src="new-tournament.js"></script>
+</body>
+</html>

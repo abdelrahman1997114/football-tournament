@@ -1,0 +1,3 @@
+body { font-family: Arial; background: #f9f9f9; color: #222; direction: rtl; }
+.container { max-width: 800px; margin: auto; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+h1, h2 { text-align: center; }
